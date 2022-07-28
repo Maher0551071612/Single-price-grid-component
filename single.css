@@ -1,0 +1,115 @@
+
+body { background-color:  hsl(204, 43%, 93%);}
+
+.container { width: 700px;
+      height: 480px;
+      background-color: red;
+      margin: 80px auto;
+      border-radius: 10px 10px 10px 5px;
+      box-shadow:   0px 0px 12px 0px lightgrey;
+    
+    }
+
+ .top { width: 700px;
+        height: 200px;
+        background-color: white;
+        border-radius: 5px 5px 0px 0;}   
+
+   h1 { color:  hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    margin: 35px 0 0 40px;
+
+    display: inline-block;
+    
+
+        }     
+
+    .toptwo{ color: hsl(71, 73%, 54%); 
+          font-size: 16px;
+          font-family: 'Karla', sans-serif;
+          font-weight: 700;
+          margin-left: 40px;
+   }      
+
+   .toppargraph { margin-left: 40px; 
+    color :lightgrey;
+                   font-family: 'Karla', sans-serif;
+                   font-weight: 700;
+                   margin-right:90px;
+                }
+
+   .bottomleft { width: 350px;
+                 height: 280px;
+                 background-color: hsl(179, 62%, 43%);;position: absolute;
+                 border-radius: 0px 0px 0px 5px;}   
+                 
+    .head {color: white;
+           font-family: 'Karla', sans-serif;
+           font-weight: 700;
+           font-size: 16px;
+           margin: 40px 0 0 55px;
+
+           }
+
+      .price {  font-family: 'Karla', sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                margin: 20px 0 0 55px;
+                color: white;
+      }
+
+      .price::after { position: absolute;
+                      content: "per month";
+                    color :hsl(204, 43%, 93%);
+                     font-size: 16px;
+                     font-family: 'Karla', sans-serif;
+                     font-weight: 400;
+                     margin: 8px 0 0px 20px;
+                    }
+
+
+      .bottomleftparagraph { margin: 20px 0 0 55px;
+                             font-family: 'Karla', sans-serif;
+                             font-weight: 400;
+                             color: white;
+                             
+      }
+                
+
+      .signbutton { width:240px;
+                    height: 35px;
+                    background-color:hsl(71, 73%, 54%);
+                    text-align: center;
+                    margin: 40px 0 0 55px;
+                    color: white;
+                    border-radius: 5px;
+                    padding-top: 10px;
+                    font-family: 'Karla', sans-serif;
+                    font-weight: 700;
+                    box-shadow:  0px 1px 5px 0px gray;
+
+
+                   }
+        
+
+       .bottomright { width: 350px;
+                    height: 280px;
+                    background-color:hsl(536, 90%, 40%);position: absolute;margin-left: 350px;
+                    border-radius: 0px 0px 5px 0px;}   
+
+
+         
+      .headright {color: white;
+             font-family: 'Karla', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+             margin: 40px 0 0 55px;}
+
+
+    .bottomrightparagraph { margin: 40px 55px 0 55px;
+                            font-family: 'Karla', sans-serif;
+                            font-weight: 400;
+                            color: white;
+                            border-radius: 5px 5px 5px 5px;}   
+                        
